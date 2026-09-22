@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Great Lakes Super Clean — Carpet, Air Ducts &amp; Water Damage | Allendale, MI</title>
+<meta name="description" content="Family-owned carpet cleaning, air duct cleaning and 24-hour water damage restoration in Allendale and West Michigan. Call or text (616) 437-0403. Insurance billed direct.">
+<link rel="canonical" href="https://www.greatlakessuperclean.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Great Lakes Super Clean — Allendale, MI">
+<meta property="og:description" content="Carpets, air ducts and 24-hour water damage restoration. Family-owned since 1989. Call or text (616) 437-0403.">
+<meta property="og:image" content="images/g-night.jpg">
+<meta property="og:url" content="https://www.greatlakessuperclean.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#25378c">
+
+<link rel="icon" href="images/favicon.ico" sizes="any">
+<link rel="icon" href="images/icon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="images/icon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Great Lakes Super Clean",
+  "image": "https://www.greatlakessuperclean.com/images/g-night.jpg",
+  "telephone": "+1-616-437-0403",
+  "email": "toddglsc@gmail.com",
+  "url": "https://www.greatlakessuperclean.com/",
+  "foundingDate": "1989",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10640 Tallpine Ln",
+    "addressLocality": "Allendale",
+    "addressRegion": "MI",
+    "postalCode": "49401",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "19" },
+  "areaServed": ["Allendale MI","Grand Rapids MI","Hudsonville MI","Jenison MI","Grandville MI","Holland MI","Coopersville MI","Zeeland MI","Wyoming MI"]
+}
+</script>
+
+<style>
+/* ============================================================
+   GREAT LAKES SUPER CLEAN
+   Design language: service-truck signage.
+   Heavy condensed display type, hard rules, warm paper stock,
+   two real brand blues lifted from the van lettering.
+   No soft floating cards. No gradient chips.
+   ============================================================ */
+
+:root{
+  /* --- paper & ink: warm family, single hue tint --- */
+  --paper:#f2efe8;
+  --paper-2:#e9e5db;
+  --paper-3:#dedace;
+  --ink:#15171a;
+  --ink-2:#3c4147;
+  --ink-3:#6c7279;
+
+  /* --- one accent, two tints, taken from the real logo --- */
+  --royal:#25378c;
+  --royal-deep:#1a2765;
+  --drop:#6baac6;
+  --drop-lift:#8fc4da;
+
+  --rule:#c9c3b5;
+  --rule-strong:#15171a;
+
+  --display:"Anton",Impact,"Haettenschweiler","Arial Narrow Bold",sans-serif;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Archivo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+
+  --maxw:1240px;
+  --gutter:clamp(18px,4vw,44px);
+
+  --z-grain:90;
+  --z-header:80;
+  --z-skip:100;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--body);
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.62;
+  font-size:16.5px;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  font-variant-numeric:tabular-nums;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:.92;letter-spacing:-.005em;text-transform:uppercase}
+h4,h5{font-family:var(--cond);font-weight:600;line-height:1.1}
+
+:focus-visible{outline:3px solid var(--royal);outline-offset:3px}
+
+.skip{
+  position:absolute;left:12px;top:-60px;z-index:var(--z-skip);
+  background:var(--ink);color:var(--paper);padding:12px 18px;
+  font-family:var(--cond);font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  transition:top .18s ease;
+}
+.skip:focus{top:12px}
+
+/* --- film grain: breaks the digital flatness --- */
+.grain{
+  position:fixed;inset:0;z-index:var(--z-grain);pointer-events:none;
+  opacity:.5;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E");
+}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+
+/* --- shared bits --- */
+.kicker{
+  font-family:var(--cond);font-weight:700;font-size:.82rem;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--royal);
+  display:flex;align-items:center;gap:12px;
+}
+.kicker::before{content:"";width:28px;height:2px;background:var(--royal);flex:none}
+.kicker.on-dark{color:var(--drop-lift)}
+.kicker.on-dark::before{background:var(--drop-lift)}
+
+.lede{font-size:1.12rem;color:var(--ink-2);max-width:60ch;text-wrap:pretty}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6em;
+  font-family:var(--cond);font-weight:700;font-size:1.05rem;
+  letter-spacing:.08em;text-transform:uppercase;
+  padding:1.05em 1.7em;border:2px solid var(--ink);border-radius:2px;
+  background:var(--ink);color:var(--paper);cursor:pointer;
+  transition:transform .16s cubic-bezier(.2,.8,.3,1),background .16s ease,color .16s ease,box-shadow .16s ease;
+  box-shadow:4px 4px 0 rgba(21,23,26,.16);
+}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 rgba(21,23,26,.22)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 rgba(21,23,26,.2)}
+.btn svg{width:18px;height:18px;flex:none}
+
+.btn-blue{background:var(--royal);border-color:var(--royal);color:#fff;box-shadow:4px 4px 0 rgba(37,55,140,.22)}
+.btn-blue:hover{box-shadow:6px 6px 0 rgba(37,55,140,.3)}
+
+.btn-out{background:transparent;color:var(--ink);box-shadow:4px 4px 0 rgba(21,23,26,.12)}
+.btn-out:hover{background:var(--ink);color:var(--paper)}
+
+.btn-light{background:var(--paper);border-color:var(--paper);color:var(--ink);box-shadow:4px 4px 0 rgba(0,0,0,.35)}
+.btn-light:hover{background:#fff;border-color:#fff}
+
+.btn-ghost-light{background:transparent;color:var(--paper);border-color:rgba(242,239,232,.5);box-shadow:none}
+.btn-ghost-light:hover{background:rgba(242,239,232,.12);border-color:var(--paper);box-shadow:none}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:var(--z-header);
+  padding:16px 0;
+  transition:background .3s ease,padding .3s ease,border-color .3s ease;
+  border-bottom:1px solid transparent;
+}
+header.stuck{
+  background:var(--paper);border-bottom-color:var(--rule-strong);padding:9px 0;
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+
+.brand{display:flex;align-items:center;gap:11px}
+.brand img{width:46px;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45));transition:width .3s ease}
+header.stuck .brand img{width:38px;filter:none}
+.brand-txt{font-family:var(--display);font-size:1.16rem;line-height:.86;color:var(--paper);letter-spacing:.01em;transition:color .3s ease}
+.brand-txt span{display:block;font-family:var(--cond);font-weight:600;font-size:.6rem;letter-spacing:.26em;color:var(--drop-lift);margin-top:4px}
+header.stuck .brand-txt{color:var(--ink)}
+header.stuck .brand-txt span{color:var(--royal)}
+
+.navlinks{display:flex;gap:28px;font-family:var(--cond);font-weight:600;font-size:1rem;letter-spacing:.09em;text-transform:uppercase;color:rgba(242,239,232,.82)}
+header.stuck .navlinks{color:var(--ink-2)}
+.navlinks a{position:relative;padding:3px 0;transition:color .18s}
+.navlinks a::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .22s cubic-bezier(.2,.8,.3,1)}
+.navlinks a:hover{color:var(--paper)}
+header.stuck .navlinks a:hover{color:var(--royal)}
+.navlinks a:hover::after,.navlinks a[aria-current="true"]::after{transform:scaleX(1)}
+
+.head-cta{display:flex;align-items:center;gap:14px}
+.head-phone{
+  font-family:var(--display);font-size:1.3rem;color:var(--paper);letter-spacing:.01em;
+  display:flex;align-items:center;gap:9px;transition:color .3s ease;
+}
+header.stuck .head-phone{color:var(--ink)}
+.head-phone svg{width:17px;height:17px;color:var(--drop-lift)}
+header.stuck .head-phone svg{color:var(--royal)}
+.head-cta .btn{padding:.72em 1.25em;font-size:.95rem}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{position:relative;min-height:100dvh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;background:#05080c}
+.hero-img{position:absolute;inset:0;background:url("images/hero.jpg") center 45%/cover no-repeat;transform:scale(1.04)}
+.hero-scrim{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(94deg,rgba(4,7,11,.94) 0%,rgba(4,7,11,.8) 38%,rgba(4,7,11,.34) 68%,rgba(4,7,11,.6) 100%),
+    linear-gradient(0deg,rgba(4,7,11,.96) 0%,rgba(4,7,11,.28) 42%,rgba(4,7,11,.45) 100%);
+}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-top:136px;padding-bottom:0}
+
+.hero-tag{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--cond);font-weight:600;font-size:.84rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--paper);border:1px solid rgba(242,239,232,.34);
+  padding:7px 15px;border-radius:2px;margin-bottom:26px;
+  background:rgba(4,7,11,.4);backdrop-filter:blur(4px);
+}
+.hero-tag i{width:7px;height:7px;border-radius:50%;background:var(--drop-lift);box-shadow:0 0 12px var(--drop-lift);font-style:normal}
+
+.hero h1{
+  font-size:clamp(3rem,8.6vw,7.4rem);
+  color:var(--paper);
+  max-width:15ch;
+  text-shadow:0 4px 40px rgba(0,0,0,.6);
+  text-wrap:balance;
+}
+.hero h1 em{font-style:normal;color:var(--drop-lift);display:block}
+
+.hero-sub{
+  margin:22px 0 30px;max-width:48ch;font-size:1.13rem;
+  color:rgba(242,239,232,.88);text-shadow:0 2px 20px rgba(0,0,0,.6);text-wrap:pretty;
+}
+.hero-acts{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:42px}
+
+.hero-mascot{
+  position:absolute;right:calc(var(--gutter) - 10px);bottom:110px;z-index:1;
+  width:clamp(180px,25vw,340px);opacity:.96;
+  filter:drop-shadow(0 20px 50px rgba(0,0,0,.6));
+  pointer-events:none;
+}
+
+/* spec bar — hard-ruled, like a data plate on the truck */
+.specbar{
+  position:relative;z-index:2;
+  border-top:1px solid rgba(242,239,232,.26);
+  background:rgba(4,7,11,.58);backdrop-filter:blur(8px);
+}
+.specbar .wrap{display:grid;grid-template-columns:repeat(4,1fr);padding-top:0;padding-bottom:0}
+.spec{padding:22px 26px 24px;border-left:1px solid rgba(242,239,232,.18)}
+.spec:first-child{border-left:none;padding-left:0}
+.spec .v{font-family:var(--display);font-size:clamp(1.5rem,2.7vw,2.1rem);color:var(--paper);line-height:1}
+.spec .v small{font-size:.5em;color:var(--drop-lift)}
+.spec .l{font-family:var(--cond);font-weight:500;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(242,239,232,.6);margin-top:6px}
+
+/* ============================================================
+   MARQUEE
+   ============================================================ */
+.marquee{background:var(--ink);color:var(--paper);overflow:hidden;padding:15px 0;border-bottom:1px solid var(--ink)}
+.marquee-track{display:flex;gap:0;width:max-content;animation:slide 44s linear infinite}
+.marquee span{
+  font-family:var(--display);font-size:1.32rem;letter-spacing:.03em;
+  padding:0 26px;white-space:nowrap;display:flex;align-items:center;gap:26px;
+}
+.marquee span::after{content:"";width:7px;height:7px;background:var(--drop);border-radius:50%;flex:none}
+@keyframes slide{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
+
+/* ============================================================
+   SECTION SHELL
+   ============================================================ */
+section.blk{padding:clamp(72px,10vw,124px) 0 clamp(80px,11vw,136px)}
+.sec-head{max-width:64ch;margin-bottom:clamp(40px,5vw,64px)}
+.sec-head h2{font-size:clamp(2.2rem,5.4vw,4rem);margin:18px 0 0;text-wrap:balance}
+.sec-head .lede{margin-top:18px}
+
+/* ============================================================
+   WINTER — the seasonal play
+   ============================================================ */
+.winter{background:var(--ink);color:var(--paper);position:relative;overflow:hidden}
+.winter::before{
+  content:"";position:absolute;inset:0;opacity:.14;
+  background-image:radial-gradient(var(--drop) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+.winter .wrap{position:relative;z-index:1}
+.winter h2{color:var(--paper)}
+.winter .lede{color:rgba(242,239,232,.72)}
+
+.wgrid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:1px;background:rgba(242,239,232,.2);border:1px solid rgba(242,239,232,.2)}
+.wcell{background:var(--ink);padding:34px 30px 38px;display:flex;flex-direction:column}
+.wcell.media{padding:0;position:relative;min-height:330px;overflow:hidden;grid-row:span 2}
+.wcell.media img{width:100%;height:100%;object-fit:cover;filter:grayscale(.3) contrast(1.06)}
+.wcell.media figcaption{
+  position:absolute;left:0;right:0;bottom:0;padding:22px 26px;
+  background:linear-gradient(0deg,rgba(21,23,26,.96),transparent);
+  font-family:var(--cond);font-weight:600;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;
+}
+.wcell .no{font-family:var(--display);font-size:2.5rem;color:var(--drop);line-height:1;margin-bottom:16px}
+.wcell h3{font-size:1.72rem;color:var(--paper);margin-bottom:12px;text-transform:none;letter-spacing:0;line-height:1.02}
+.wcell p{color:rgba(242,239,232,.74);font-size:1rem}
+.wcell .tag{
+  margin-top:auto;padding-top:22px;
+  font-family:var(--cond);font-weight:600;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--drop-lift);
+}
+
+/* ============================================================
+   SERVICES — numbered editorial rows, not a 3-up card grid
+   ============================================================ */
+.svc-list{border-top:2px solid var(--rule-strong)}
+.svc-row{
+  display:grid;grid-template-columns:auto 1.05fr 1.5fr;gap:clamp(20px,4vw,54px);
+  align-items:start;padding:36px 0 38px;
+  border-bottom:1px solid var(--rule);
+  transition:background .25s ease;
+}
+.svc-row:hover{background:rgba(37,55,140,.045)}
+.svc-row .idx{
+  font-family:var(--display);font-size:1.15rem;color:var(--royal);
+  padding-top:6px;min-width:2.6ch;letter-spacing:.04em;
+}
+.svc-row h3{font-size:clamp(1.65rem,3.1vw,2.35rem);text-transform:none;letter-spacing:-.01em;line-height:1}
+.svc-row .meta{
+  margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;
+}
+.svc-row .meta b{
+  font-family:var(--cond);font-weight:600;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;
+  border:1px solid var(--rule);padding:4px 10px;color:var(--ink-2);border-radius:2px;background:var(--paper-2);
+}
+.svc-row .meta b.hot{background:var(--royal);border-color:var(--royal);color:#fff}
+.svc-row p{color:var(--ink-2);padding-top:5px}
+.svc-row p a{color:var(--royal);font-weight:600;border-bottom:1.5px solid var(--drop);transition:background .18s}
+.svc-row p a:hover{background:var(--drop-lift)}
+
+/* ============================================================
+   PROOF / TEAM
+   ============================================================ */
+.proof{background:var(--paper-2);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.proof-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(30px,5vw,68px);align-items:center}
+.proof-photo{position:relative;border:1px solid var(--rule-strong)}
+.proof-photo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.proof-photo figcaption{
+  font-family:var(--cond);font-weight:500;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);padding:11px 2px 0;
+}
+.proof-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);margin:30px 0 0}
+.pstat{background:var(--paper-2);padding:20px 22px}
+.pstat .v{font-family:var(--display);font-size:clamp(2rem,4vw,2.9rem);line-height:1;color:var(--royal)}
+.pstat .l{font-family:var(--cond);font-weight:500;font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin-top:5px}
+
+.why-list{list-style:none;margin-top:8px}
+.why-list li{display:grid;grid-template-columns:auto 1fr;gap:16px;padding:19px 0;border-bottom:1px solid var(--rule)}
+.why-list li:last-child{border-bottom:none}
+.why-list .mk{
+  font-family:var(--display);font-size:.92rem;color:var(--royal);
+  border:2px solid var(--royal);width:30px;height:30px;
+  display:grid;place-items:center;border-radius:2px;margin-top:2px;
+}
+.why-list h4{font-size:1.24rem;margin-bottom:3px;letter-spacing:.005em}
+.why-list p{color:var(--ink-2);font-size:.99rem}
+
+/* ============================================================
+   REVIEWS — masonry wall
+   ============================================================ */
+.rev-wall{columns:3;column-gap:20px}
+.rev{
+  break-inside:avoid;margin-bottom:20px;
+  background:var(--paper);border:1px solid var(--rule-strong);
+  padding:26px 24px 24px;position:relative;
+}
+.rev .stars{color:var(--royal);letter-spacing:3px;font-size:1rem;margin-bottom:12px}
+.rev p{font-size:1.02rem;color:var(--ink);text-wrap:pretty}
+.rev .by{margin-top:18px;padding-top:15px;border-top:1px solid var(--rule);display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.rev .by b{font-family:var(--cond);font-weight:700;font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase}
+.rev .by span{font-size:.79rem;color:var(--ink-3)}
+.rev.big{background:var(--royal);border-color:var(--royal);color:#fff}
+.rev.big .score{font-family:var(--display);font-size:4.4rem;line-height:.86;color:#fff}
+.rev.big .score sup{font-size:.28em;color:var(--drop-lift);vertical-align:super;margin-left:4px}
+.rev.big p{color:rgba(255,255,255,.88);margin-top:12px}
+.rev.big a{
+  display:inline-flex;align-items:center;gap:7px;margin-top:16px;
+  font-family:var(--cond);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.9rem;
+  color:#fff;border-bottom:2px solid var(--drop-lift);padding-bottom:2px;
+}
+.rev.big a:hover{border-bottom-color:#fff}
+
+.g-bar{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:38px;flex-wrap:wrap}
+.g-bar .pill{display:flex;align-items:center;gap:11px;border:1px solid var(--rule-strong);padding:11px 20px;background:var(--paper)}
+.g-bar .pill b{font-family:var(--display);font-size:1.3rem}
+
+/* ============================================================
+   EMERGENCY
+   ============================================================ */
+.emerg{background:var(--ink);color:var(--paper);position:relative;overflow:hidden}
+.emerg::after{
+  content:"";position:absolute;right:-8%;top:50%;transform:translateY(-50%);
+  width:44vw;height:44vw;max-width:620px;max-height:620px;
+  background:radial-gradient(circle,rgba(107,170,198,.28),transparent 64%);
+  filter:blur(30px);pointer-events:none;
+}
+.emerg .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.3fr auto;gap:clamp(28px,5vw,60px);align-items:center}
+.emerg h2{color:var(--paper);font-size:clamp(2rem,4.6vw,3.4rem);text-wrap:balance}
+.emerg p{color:rgba(242,239,232,.76);margin-top:16px;max-width:52ch;font-size:1.06rem}
+.livedot{display:inline-flex;align-items:center;gap:10px;font-family:var(--cond);font-weight:700;font-size:.84rem;letter-spacing:.18em;text-transform:uppercase;color:var(--drop-lift);margin-bottom:16px}
+.livedot i{width:9px;height:9px;border-radius:50%;background:var(--drop);font-style:normal;animation:ping 2s ease-out infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(107,170,198,.7)}70%{box-shadow:0 0 0 15px rgba(107,170,198,0)}100%{box-shadow:0 0 0 0 rgba(107,170,198,0)}}
+
+.callbox{border:1px solid rgba(242,239,232,.28);padding:28px 30px;text-align:center;background:rgba(242,239,232,.04)}
+.callbox .l{font-family:var(--cond);font-weight:500;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(242,239,232,.6)}
+.callbox .num{font-family:var(--display);font-size:clamp(2rem,4vw,2.9rem);margin:7px 0 16px;letter-spacing:.005em;display:block}
+.callbox .num:hover{color:var(--drop-lift)}
+.callbox .btn{width:100%}
+
+/* ============================================================
+   AREA + MAP
+   ============================================================ */
+.area-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(30px,5vw,64px);align-items:center}
+.map-frame{border:1px solid var(--rule-strong);background:var(--paper-3);position:relative;aspect-ratio:4/3}
+.map-frame iframe{
+  position:absolute;inset:0;width:100%;height:100%;border:0;display:block;
+  filter:grayscale(.35) contrast(1.04);opacity:0;transition:opacity .4s ease;
+}
+.map-frame iframe.ready{opacity:1}
+.map-fallback{
+  position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:5px;text-align:center;padding:26px;
+  background:
+    radial-gradient(520px 300px at 50% 42%, rgba(107,170,198,.2), transparent 66%),
+    var(--paper-3);
+}
+.map-fallback svg{width:38px;height:38px;color:var(--royal);margin-bottom:8px}
+.map-fallback b{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:1.3rem;letter-spacing:.01em}
+.map-fallback span{font-size:.92rem;color:var(--ink-2)}
+.map-fallback a{
+  margin-top:12px;font-family:var(--cond);font-weight:700;font-size:.92rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--royal);
+  border-bottom:2px solid var(--drop);padding-bottom:2px;
+}
+.map-fallback a:hover{border-bottom-color:var(--royal)}
+/* sits top-left so the OpenStreetMap attribution stays visible bottom-right */
+.map-plate{
+  position:absolute;left:0;top:0;background:var(--ink);color:var(--paper);
+  padding:14px 20px;font-family:var(--cond);font-weight:600;font-size:.88rem;letter-spacing:.07em;
+}
+.map-plate span{display:block;font-weight:500;font-size:.8rem;color:rgba(242,239,232,.66);letter-spacing:.04em;text-transform:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.chips b{
+  font-family:var(--cond);font-weight:600;font-size:.92rem;letter-spacing:.06em;
+  border:1px solid var(--rule-strong);padding:6px 14px;background:var(--paper);border-radius:2px;
+  transition:background .18s ease,color .18s ease;
+}
+.chips b:hover{background:var(--ink);color:var(--paper)}
+.chips b.soft{border-style:dashed;color:var(--ink-3);background:transparent}
+
+/* ============================================================
+   QUOTE FORM
+   ============================================================ */
+.quote{background:var(--paper-2);border-top:1px solid var(--rule)}
+.q-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,70px);align-items:start}
+.q-points{list-style:none;margin-top:26px;border-top:1px solid var(--rule)}
+.q-points li{display:grid;grid-template-columns:auto 1fr;gap:13px;padding:15px 0;border-bottom:1px solid var(--rule);font-size:1rem}
+.q-points svg{width:19px;height:19px;color:var(--royal);margin-top:3px;flex:none}
+
+form.qf{background:var(--paper);border:1px solid var(--rule-strong);padding:clamp(24px,3.5vw,36px)}
+form.qf h3{font-size:1.9rem;text-transform:none;letter-spacing:-.005em}
+form.qf .sub{color:var(--ink-3);font-size:.95rem;margin:7px 0 24px}
+.f{margin-bottom:17px}
+.f label{display:block;font-family:var(--cond);font-weight:600;font-size:.82rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);margin-bottom:7px}
+.f input,.f select,.f textarea{
+  width:100%;padding:.86em 1em;font-family:var(--body);font-size:1rem;color:var(--ink);
+  background:var(--paper-2);border:1.5px solid var(--rule);border-radius:2px;
+  transition:border-color .16s ease,background .16s ease;
+}
+.f textarea{resize:vertical;min-height:88px}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--royal);background:#fff}
+.f input[aria-invalid="true"],.f select[aria-invalid="true"]{border-color:#b03424;background:#fdf3f1}
+.err{display:none;font-size:.85rem;color:#b03424;margin-top:6px;font-weight:500}
+.err.show{display:block}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+form.qf .btn{width:100%;margin-top:6px}
+form.qf .btn[disabled]{opacity:.62;cursor:wait;transform:none;box-shadow:4px 4px 0 rgba(37,55,140,.22)}
+.f-note{font-size:.83rem;color:var(--ink-3);margin-top:14px;text-align:center;text-wrap:pretty}
+.f-note a{color:var(--royal);font-weight:600;border-bottom:1px solid var(--drop)}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+.form-status{display:none;border:1.5px solid;padding:16px 18px;margin-bottom:18px;font-size:.97rem;border-radius:2px}
+.form-status.show{display:block}
+.form-status.ok{border-color:var(--royal);background:rgba(37,55,140,.07);color:var(--royal-deep)}
+.form-status.bad{border-color:#b03424;background:#fdf3f1;color:#8e2a1d}
+.form-status b{font-family:var(--cond);letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:3px;font-size:1rem}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{background:var(--ink);color:rgba(242,239,232,.66);padding:clamp(56px,7vw,80px) 0 26px;font-size:.95rem}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:clamp(26px,4vw,48px);padding-bottom:40px;border-bottom:1px solid rgba(242,239,232,.16)}
+.fbrand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.fbrand img{width:52px}
+.fbrand .t{font-family:var(--display);font-size:1.22rem;color:var(--paper);line-height:.88}
+.fbrand .t span{display:block;font-family:var(--cond);font-weight:600;font-size:.6rem;letter-spacing:.24em;color:var(--drop-lift);margin-top:4px}
+footer h5{font-family:var(--cond);font-weight:700;color:var(--paper);font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:15px}
+footer ul{list-style:none}
+footer li{margin-bottom:9px}
+footer a:hover{color:var(--drop-lift)}
+.fcontact{display:grid;grid-template-columns:auto 1fr;gap:11px;margin-bottom:12px;align-items:start}
+.fcontact svg{width:17px;height:17px;color:var(--drop);margin-top:3px}
+.fbot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;padding-top:22px;font-size:.83rem;color:rgba(242,239,232,.42)}
+.fbot nav{display:flex;gap:18px}
+
+/* ============================================================
+   REVEAL
+   ============================================================ */
+.rv{opacity:0;transform:translate3d(0,22px,0);transition:opacity .7s cubic-bezier(.2,.8,.3,1),transform .7s cubic-bezier(.2,.8,.3,1)}
+.rv.in{opacity:1;transform:translate3d(0,0,0)}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:1080px){
+  .rev-wall{columns:2}
+  .wgrid{grid-template-columns:1fr 1fr}
+  .wcell.media{grid-column:1/-1;grid-row:auto;min-height:260px;max-height:340px}
+}
+@media(max-width:900px){
+  .navlinks{display:none}
+  .head-phone span{display:none}
+  .hero-mascot{width:190px;bottom:150px;opacity:.55}
+  .specbar .wrap{grid-template-columns:1fr 1fr}
+  .spec{padding:16px 18px;border-left:1px solid rgba(242,239,232,.18)}
+  .spec:first-child,.spec:nth-child(3){padding-left:0;border-left:none}
+  .spec:nth-child(3),.spec:nth-child(4){border-top:1px solid rgba(242,239,232,.18)}
+  .proof-grid,.area-grid,.q-grid,.emerg .wrap{grid-template-columns:1fr}
+  .svc-row{grid-template-columns:auto 1fr;gap:16px}
+  .svc-row p{grid-column:2;padding-top:0}
+  .emerg .callbox{max-width:420px}
+}
+@media(max-width:640px){
+  body{font-size:16px}
+  .rev-wall{columns:1}
+  .wgrid{grid-template-columns:1fr}
+  .hero .wrap{padding-top:104px}
+  .hero-mascot{display:none}
+  .hero-acts{margin-bottom:30px}
+  .f-row{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .btn{width:100%}
+  .hero-acts .btn{width:auto;flex:1 1 auto;min-width:200px}
+  .g-bar{flex-direction:column}
+  .fbot{flex-direction:column;gap:10px}
+}
+@media(max-width:420px){
+  .fgrid{grid-template-columns:1fr}
+  /* keep the spec bar 2x2 even on the narrowest phones — stacking it
+     to four rows pushed the whole hero past 1100px tall */
+  .spec{padding:13px 12px}
+  .spec .v{font-size:1.32rem}
+  .spec .l{font-size:.7rem;letter-spacing:.1em}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .rv{opacity:1;transform:none}
+}
+
+@media print{
+  .grain,header,.hero-mascot,.marquee{display:none}
+  body{background:#fff;color:#000}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ================= HEADER ================= -->
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="#top" class="brand" aria-label="Great Lakes Super Clean — home">
+      <img src="images/mascot-char.png" alt="" width="46" height="52" aria-hidden="true">
+      <span class="brand-txt">Great Lakes<span>Super Clean</span></span>
+    </a>
+    <nav class="navlinks" aria-label="Primary">
+      <a href="#winter">Winter</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#area">Area</a>
+    </nav>
+    <div class="head-cta">
+      <a href="tel:+16164370403" class="head-phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg>
+        <span>(616) 437-0403</span>
+      </a>
+      <a href="#quote" class="btn btn-blue">Free quote</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-img" role="img" aria-label="The Great Lakes Super Clean trailer and van lit up blue on a night job"></div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <img class="hero-mascot" src="images/mascot.png" alt="" aria-hidden="true" width="340" height="276">
+
+  <div class="wrap">
+    <p class="hero-tag"><i></i> Allendale, Michigan · Family-owned since 1989</p>
+    <h1>When it's wet, dirty or flooded <em>call Todd.</em></h1>
+    <p class="hero-sub">Carpets, air ducts, and 24-hour water damage restoration across West Michigan. Truck-mounted equipment, insurance billed direct, and a real person on the phone at 2am.</p>
+    <div class="hero-acts">
+      <a href="tel:+16164370403" class="btn btn-light">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg>
+        Call (616) 437-0403
+      </a>
+      <a href="sms:+16164370403" class="btn btn-ghost-light">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 01-9 8.5 9.1 9.1 0 01-4-.9L3 20l1.3-3.8A8.4 8.4 0 0112 3a8.4 8.4 0 019 8.5z"/></svg>
+        Text us instead
+      </a>
+    </div>
+  </div>
+
+  <div class="specbar">
+    <div class="wrap">
+      <div class="spec"><div class="v">1989</div><div class="l">Family-owned since</div></div>
+      <div class="spec"><div class="v">4.9<small>★</small></div><div class="l">19 Google reviews</div></div>
+      <div class="spec"><div class="v">24 hrs</div><div class="l">Water emergency line</div></div>
+      <div class="spec"><div class="v">Direct</div><div class="l">Insurance billing</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="mq">
+    <span>Carpet cleaning</span><span>Air ducts</span><span>Water damage</span><span>Upholstery</span><span>Frozen pipes</span><span>Antimicrobial</span><span>Commercial</span><span>Insurance claims</span>
+    <span>Carpet cleaning</span><span>Air ducts</span><span>Water damage</span><span>Upholstery</span><span>Frozen pipes</span><span>Antimicrobial</span><span>Commercial</span><span>Insurance claims</span>
+  </div>
+</div>
+
+<!-- ================= WINTER ================= -->
+<section class="blk winter" id="winter">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <p class="kicker on-dark">Cold weather work</p>
+      <h2>Michigan winter is hard on a house.</h2>
+      <p class="lede">Pipes freeze. Furnaces run non-stop and push a season of dust through every room. Salt and slush come in on everybody's boots. Here's what we get called for once the temperature drops.</p>
+    </div>
+
+    <div class="wgrid rv">
+      <figure class="wcell media">
+        <img src="images/g-winter.jpg" alt="A Great Lakes Super Clean van parked on a snowy driveway on a winter service call" loading="lazy">
+        <figcaption>Out on a January call — Allendale</figcaption>
+      </figure>
+      <div class="wcell">
+        <div class="no">01</div>
+        <h3>Frozen and burst pipes</h3>
+        <p>A pipe lets go behind a wall and a finished basement is under water in an hour. We extract, dry the structure with commercial air movers, treat for mold, and bill your insurance company direct.</p>
+        <p class="tag">24-hour response</p>
+      </div>
+      <div class="wcell">
+        <div class="no">02</div>
+        <h3>Furnace-season air ducts</h3>
+        <p>Your furnace is about to run for five months straight. Everything sitting in those ducts goes through the house with it. Cleaning them before the season is the cheapest air-quality fix there is.</p>
+        <p class="tag">Best done Oct–Dec</p>
+      </div>
+      <div class="wcell">
+        <div class="no">03</div>
+        <h3>Holiday-ready carpets</h3>
+        <p>Company coming. Book before Thanksgiving and we'll have the traffic lanes, the stairs and the dining room looking right — dry in hours, not days, so you're not working around it.</p>
+        <p class="tag">Books up fast in November</p>
+      </div>
+      <div class="wcell">
+        <div class="no">04</div>
+        <h3>Salt, slush and grit</h3>
+        <p>Road salt tracked into carpet grinds fibers down and leaves white bloom behind. Hot-water extraction pulls it out before it does permanent damage to your flooring.</p>
+        <p class="tag">Residential + commercial</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="blk" id="services">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <p class="kicker">What we do</p>
+      <h2>Six things, done properly.</h2>
+      <p class="lede">Same crew and the same truck-mounted equipment whether it's one room of carpet or a flooded basement at two in the morning.</p>
+    </div>
+
+    <div class="svc-list">
+      <article class="svc-row rv">
+        <div class="idx">01</div>
+        <div>
+          <h3>Carpet &amp; upholstery</h3>
+          <div class="meta"><b>Residential</b><b>Commercial</b><b>Dries in hours</b></div>
+        </div>
+        <p>Hot-water extraction run off the truck, not a rental machine. It pulls out the dirt, the allergens and the smell that a store-bought shampooer just pushes further down into the pad. Couches and sectionals too.</p>
+      </article>
+
+      <article class="svc-row rv">
+        <div class="idx">02</div>
+        <div>
+          <h3>Air duct cleaning</h3>
+          <div class="meta"><b class="hot">Winter demand</b><b>HVAC</b><b>Dryer vents</b></div>
+        </div>
+        <p>We pull the dust, dander and construction debris out of your supply and return lines so the furnace isn't circulating it all winter. Most people notice the difference in the first week.</p>
+      </article>
+
+      <article class="svc-row rv">
+        <div class="idx">03</div>
+        <div>
+          <h3>Water damage restoration</h3>
+          <div class="meta"><b class="hot">24 hours</b><b>Flood &amp; burst pipe</b><b>Structural drying</b></div>
+        </div>
+        <p>Water gets worse by the minute, so we don't make you wait for business hours. Extraction, air movers and dehumidifiers, moisture readings until the structure is actually dry — then the antimicrobial treatment. <a href="tel:+16164370403">Call the emergency line</a>.</p>
+      </article>
+
+      <article class="svc-row rv">
+        <div class="idx">04</div>
+        <div>
+          <h3>Antimicrobial treatment</h3>
+          <div class="meta"><b>Post-water-loss</b><b>Carpets &amp; ducts</b></div>
+        </div>
+        <p>Anywhere that's been wet will grow something if it isn't treated. We spray carpets, ducts and affected surfaces so the problem doesn't come back as a smell in March.</p>
+      </article>
+
+      <article class="svc-row rv">
+        <div class="idx">05</div>
+        <div>
+          <h3>Commercial &amp; property management</h3>
+          <div class="meta"><b>Recurring schedules</b><b>After hours</b><b>Turnovers</b></div>
+        </div>
+        <p>Offices, apartment turnovers, rentals and common areas. We'll work nights and weekends so your tenants and customers never see us, and you get the same crew every time.</p>
+      </article>
+
+      <article class="svc-row rv">
+        <div class="idx">06</div>
+        <div>
+          <h3>Insurance claims</h3>
+          <div class="meta"><b>Billed direct</b><b>Documented</b></div>
+        </div>
+        <p>For water and fire loss we document the damage, talk to your adjuster and bill the carrier directly. You handle your deductible; we handle the paperwork.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROOF ================= -->
+<section class="blk proof" id="why">
+  <div class="wrap proof-grid">
+    <figure class="rv">
+      <div class="proof-photo">
+        <img src="images/team.jpg" alt="Todd and a crew member standing by a Great Lakes Super Clean van on a job site in Allendale" loading="lazy">
+      </div>
+      <figcaption>Todd and the crew — on site in Allendale</figcaption>
+      <div class="proof-stats">
+        <div class="pstat"><div class="v">1989</div><div class="l">Year we started</div></div>
+        <div class="pstat"><div class="v">4.9★</div><div class="l">Google rating</div></div>
+        <div class="pstat"><div class="v">24/7</div><div class="l">Emergency water</div></div>
+        <div class="pstat"><div class="v">9+</div><div class="l">Towns served</div></div>
+      </div>
+    </figure>
+
+    <div class="rv">
+      <p class="kicker">Why people call us back</p>
+      <h2 style="font-size:clamp(2rem,4.2vw,3.1rem);margin:18px 0 6px">Not a franchise. Not a call center.</h2>
+      <ul class="why-list">
+        <li>
+          <span class="mk" aria-hidden="true">01</span>
+          <div><h4>You get the owner</h4><p>Todd has been doing this since 1989 and he's still the one who shows up. The number on the van is the number that rings.</p></div>
+        </li>
+        <li>
+          <span class="mk" aria-hidden="true">02</span>
+          <div><h4>Truck-mounted, not rented</h4><p>Commercial equipment pulls out what a rental machine leaves in the pad, and gets carpet dry in hours instead of days.</p></div>
+        </li>
+        <li>
+          <span class="mk" aria-hidden="true">03</span>
+          <div><h4>The emergency line is real</h4><p>Water doesn't wait for Monday. Nights, weekends, holidays — somebody picks up and somebody comes out.</p></div>
+        </li>
+        <li>
+          <span class="mk" aria-hidden="true">04</span>
+          <div><h4>We deal with the adjuster</h4><p>On water and fire loss we bill your insurance company direct, so you're not fronting the job and chasing a reimbursement.</p></div>
+        </li>
+      </ul>
+      <a href="#quote" class="btn btn-blue" style="margin-top:28px">Get a free estimate</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="blk" id="reviews">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <p class="kicker">Verified Google reviews</p>
+      <h2>What West Michigan says.</h2>
+    </div>
+
+    <div class="rev-wall rv">
+      <blockquote class="rev">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p>Todd and crew were so friendly, professional, and easy-going! My couch looks amazing after their thorough care of it. They have reasonable prices as well. They will definitely be my go-to for all of my carpet and upholstery cleaning from now on!</p>
+        <div class="by"><b>Rebekah Jones</b><span>Google review</span></div>
+      </blockquote>
+
+      <blockquote class="rev">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p>Todd and his team were great! They were in and out in no time, very friendly, and our ducts look brand new. They left no trace and went above and beyond, all at a fair price. Would HIGHLY recommend!</p>
+        <div class="by"><b>Taylor Dykstra</b><span>Google review</span></div>
+      </blockquote>
+
+      <div class="rev big">
+        <div class="score">4.9<sup>★</sup></div>
+        <p>Averaged across 19 Google reviews from Allendale and the surrounding towns.</p>
+        <a href="https://www.google.com/search?q=Great+Lakes+Super+Clean+Allendale+MI" target="_blank" rel="noopener">Read them on Google →</a>
+      </div>
+
+      <blockquote class="rev">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p>The crew did a great job on our HVAC vent cleaning! Price was very fair and work was done quickly and neatly. Thanks again!</p>
+        <div class="by"><b>Danielle Hunter</b><span>Local Guide · Google review</span></div>
+      </blockquote>
+
+      <blockquote class="rev">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p>These guys were amazing. Great guys, fast, friendly. If you live in Allendale, you must use them!</p>
+        <div class="by"><b>Brad Westveld</b><span>Google review</span></div>
+      </blockquote>
+
+      <blockquote class="rev">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <p>Todd gave me special attention as he blew my ducts clean!!! I feel so refreshed and renewed and look forward to our next cleaning encounter!!!</p>
+        <div class="by"><b>Jodi Grennell</b><span>Google review</span></div>
+      </blockquote>
+    </div>
+
+    <div class="g-bar rv">
+      <div class="pill">
+        <svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0012 23z"/><path fill="#FBBC05" d="M5.84 14.09a6.6 6.6 0 010-4.18V7.07H2.18a11 11 0 000 9.86l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38z"/></svg>
+        <b>4.9</b><span style="color:var(--royal);letter-spacing:2px">★★★★★</span>
+        <span style="color:var(--ink-3);font-size:.9rem">19 reviews</span>
+      </div>
+      <a href="https://www.google.com/search?q=Great+Lakes+Super+Clean+Allendale+MI" target="_blank" rel="noopener" class="btn btn-out">See all reviews</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EMERGENCY ================= -->
+<section class="blk emerg">
+  <div class="wrap">
+    <div class="rv">
+      <p class="livedot"><i></i> Emergency water restoration</p>
+      <h2>Basement filling up right now?</h2>
+      <p>Stop reading and call. Every hour water sits, it wicks further into drywall, subfloor and framing — and the repair bill climbs with it. Our crews are on call overnight, weekends and holidays, and we bill your insurance company direct.</p>
+    </div>
+    <div class="callbox rv">
+      <div class="l">24-hour line</div>
+      <a href="tel:+16164370403" class="num">(616) 437-0403</a>
+      <a href="tel:+16164370403" class="btn btn-light">Call now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AREA ================= -->
+<section class="blk" id="area">
+  <div class="wrap area-grid">
+    <div class="rv">
+      <p class="kicker">Where we work</p>
+      <h2 style="font-size:clamp(2rem,4.2vw,3.1rem);margin:18px 0 6px">Allendale and everywhere around it.</h2>
+      <p class="lede">We're based off Tallpine Lane in Allendale and cover the surrounding towns every day. If you're nearby and not on the list, ask anyway — there's a good chance a van is already out your way.</p>
+      <div class="chips">
+        <b>Allendale</b><b>Grand Rapids</b><b>Hudsonville</b><b>Jenison</b><b>Grandville</b>
+        <b>Holland</b><b>Coopersville</b><b>Zeeland</b><b>Wyoming</b><b class="soft">+ surrounding</b>
+      </div>
+    </div>
+    <div class="map-frame rv" id="mapFrame">
+      <!-- shown until the embed confirms it loaded; stays put if the map is
+           blocked or OpenStreetMap is unreachable, so this never goes blank -->
+      <div class="map-fallback" id="mapFallback">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <b>Allendale, Michigan</b>
+        <span>10640 Tallpine Ln, Allendale, MI 49401</span>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=10640+Tallpine+Ln,+Allendale,+MI+49401" target="_blank" rel="noopener">Open in Maps →</a>
+      </div>
+      <iframe id="mapEmbed"
+        title="Map of Great Lakes Super Clean's service area around Allendale, Michigan"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-86.42%2C42.62%2C-85.48%2C43.14&amp;layer=mapnik&amp;marker=42.9725%2C-85.9539"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-plate">Great Lakes Super Clean<span>10640 Tallpine Ln, Allendale, MI 49401</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUOTE ================= -->
+<section class="blk quote" id="quote">
+  <div class="wrap q-grid">
+    <div class="rv">
+      <p class="kicker">Free estimate</p>
+      <h2 style="font-size:clamp(2rem,4.2vw,3.1rem);margin:18px 0 6px">Tell us what's going on.</h2>
+      <p class="lede">No pressure and no obligation — just a straight answer on what it takes and what it costs.</p>
+      <ul class="q-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>We usually get back to you the same day</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Water and fire loss billed to insurance direct</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Rather talk now? Call or text <a href="tel:+16164370403" style="color:var(--royal);font-weight:600">(616) 437-0403</a></span></li>
+      </ul>
+    </div>
+
+    <form class="qf" id="quoteForm" novalidate>
+      <h3>Request a quote</h3>
+      <p class="sub">Takes about thirty seconds.</p>
+
+      <div class="form-status" id="fstatus" role="status" aria-live="polite"></div>
+
+      <div class="f-row">
+        <div class="f">
+          <label for="qname">Your name</label>
+          <input id="qname" name="name" type="text" autocomplete="name" required>
+          <p class="err" id="e-qname">Please enter your name.</p>
+        </div>
+        <div class="f">
+          <label for="qphone">Phone</label>
+          <input id="qphone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="616-555-0142" required>
+          <p class="err" id="e-qphone">Enter a phone number we can reach you at.</p>
+        </div>
+      </div>
+
+      <div class="f">
+        <label for="qtown">Town</label>
+        <input id="qtown" name="town" type="text" autocomplete="address-level2" placeholder="Allendale">
+      </div>
+
+      <div class="f">
+        <label for="qsvc">What do you need?</label>
+        <select id="qsvc" name="service" required>
+          <option value="">Choose one…</option>
+          <option>Carpet or upholstery cleaning</option>
+          <option>Air duct cleaning</option>
+          <option>Water damage — emergency</option>
+          <option>Antimicrobial treatment</option>
+          <option>Commercial or property management</option>
+          <option>Something else</option>
+        </select>
+        <p class="err" id="e-qsvc">Pick the service you need.</p>
+      </div>
+
+      <div class="f">
+        <label for="qnote">Anything else? <span style="text-transform:none;letter-spacing:0;font-weight:400;color:var(--ink-3)">(optional)</span></label>
+        <textarea id="qnote" name="details" rows="3" placeholder="Three bedrooms and a stairway, some pet stains in the hall…"></textarea>
+      </div>
+
+      <div class="hp" aria-hidden="true"><label for="botcheck">Leave blank</label><input id="botcheck" name="botcheck" type="text" tabindex="-1" autocomplete="off"></div>
+
+      <button class="btn btn-blue" type="submit" id="qsubmit">Send it to Todd</button>
+      <p class="f-note">Prefer to skip the form? <a href="sms:+16164370403">Text (616) 437-0403</a> — it goes to the same place.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <div class="fbrand">
+          <img src="images/mascot-char.png" alt="" width="52" height="59" aria-hidden="true">
+          <div class="t">Great Lakes<span>Super Clean</span></div>
+        </div>
+        <p style="max-width:34ch">Family-owned carpet cleaning, air duct cleaning and 24-hour water damage restoration. Serving Allendale and West Michigan since 1989.</p>
+      </div>
+
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Carpet &amp; upholstery</a></li>
+          <li><a href="#services">Air duct cleaning</a></li>
+          <li><a href="#services">Water damage</a></li>
+          <li><a href="#services">Antimicrobial</a></li>
+          <li><a href="#services">Commercial</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#winter">Winter services</a></li>
+          <li><a href="#why">Why us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#area">Service area</a></li>
+          <li><a href="#quote">Free quote</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Get in touch</h5>
+        <div class="fcontact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg>
+          <div><a href="tel:+16164370403">(616) 437-0403</a><br><span style="font-size:.85rem;color:rgba(242,239,232,.45)">Call or text · 24 hours</span></div>
+        </div>
+        <div class="fcontact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg>
+          <a href="mailto:toddglsc@gmail.com">toddglsc@gmail.com</a>
+        </div>
+        <div class="fcontact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>10640 Tallpine Ln<br>Allendale, MI 49401</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="fbot">
+      <span>© <span id="yr">2026</span> Great Lakes Super Clean · Licensed &amp; insured</span>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="#quote">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---- year ---- */
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* ---- sticky header ---- */
+  var hdr = document.getElementById('hdr');
+  var onScroll = function(){ hdr.classList.toggle('stuck', window.scrollY > 40); };
+  onScroll();
+  window.addEventListener('scroll', onScroll, {passive:true});
+
+  /* ---- active nav link ---- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.navlinks a'));
+  var targets = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if ('IntersectionObserver' in window && targets.length){
+    var navObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (!en.isIntersecting) return;
+        links.forEach(function(a){
+          a.setAttribute('aria-current', a.getAttribute('href') === '#' + en.target.id ? 'true' : 'false');
+        });
+      });
+    }, {rootMargin:'-45% 0px -50% 0px'});
+    targets.forEach(function(t){ navObs.observe(t); });
+  }
+
+  /* ---- staggered reveal ---- */
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var rv = document.querySelectorAll('.rv');
+  if (reduce || !('IntersectionObserver' in window)){
+    rv.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(en, i){
+        if (!en.isIntersecting) return;
+        var el = en.target;
+        setTimeout(function(){ el.classList.add('in'); }, i * 70);
+        obs.unobserve(el);
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -8% 0px'});
+    rv.forEach(function(el){ obs.observe(el); });
+  }
+
+  /* ---- map: only swap in the embed once it genuinely loads ---- */
+  var mapEmbed = document.getElementById('mapEmbed');
+  var mapFallback = document.getElementById('mapFallback');
+  if (mapEmbed && mapFallback){
+    var mapSettled = false;
+    var mapOk = function(){
+      if (mapSettled) return;
+      mapSettled = true;
+      mapEmbed.classList.add('ready');
+      mapFallback.style.display = 'none';
+    };
+    mapEmbed.addEventListener('load', mapOk);
+    // if it never loads (blocked, offline, OSM down) the fallback just stays
+    setTimeout(function(){
+      if (!mapSettled && !mapEmbed.classList.contains('ready')) mapEmbed.style.display = 'none';
+    }, 6000);
+  }
+
+  /* ---- pause marquee when off-screen (saves battery) ---- */
+  var mq = document.getElementById('mq');
+  if (mq && 'IntersectionObserver' in window){
+    new IntersectionObserver(function(e){
+      mq.style.animationPlayState = e[0].isIntersecting ? 'running' : 'paused';
+    }).observe(mq);
+  }
+
+  /* ============================================================
+     QUOTE FORM
+     Posts to Web3Forms when a key is set. With no key — or if the
+     network call fails — it falls back to a pre-filled text message
+     to Todd, so the form never dead-ends.
+     SETUP: get a free key at https://web3forms.com using
+     toddglsc@gmail.com, then paste it below.
+     ============================================================ */
+  var WEB3FORMS_KEY = "";           // <-- paste access key here
+  var SHOP_PHONE    = "+16164370403";
+
+  var form   = document.getElementById('quoteForm');
+  var status = document.getElementById('fstatus');
+  var submit = document.getElementById('qsubmit');
+
+  function showStatus(kind, title, msg){
+    status.className = 'form-status show ' + kind;
+    status.innerHTML = '<b></b><span></span>';
+    status.querySelector('b').textContent = title;
+    status.querySelector('span').textContent = msg;
+  }
+
+  function fieldError(id, on){
+    var input = document.getElementById(id);
+    var err   = document.getElementById('e-' + id);
+    input.setAttribute('aria-invalid', on ? 'true' : 'false');
+    if (err) err.classList.toggle('show', !!on);
+    return !on;
+  }
+
+  function digits(s){ return (s || '').replace(/\D/g, ''); }
+
+  function validate(){
+    var ok = true;
+    ok = fieldError('qname', document.getElementById('qname').value.trim().length < 2) && ok;
+    var d = digits(document.getElementById('qphone').value);
+    ok = fieldError('qphone', d.length < 10 || d.length > 11) && ok;
+    ok = fieldError('qsvc',  !document.getElementById('qsvc').value) && ok;
+    return ok;
+  }
+
+  ['qname','qphone','qsvc'].forEach(function(id){
+    var el = document.getElementById(id);
+    el.addEventListener('blur',  function(){ if (el.value) validate(); });
+    el.addEventListener('input', function(){
+      if (el.getAttribute('aria-invalid') === 'true') validate();
+    });
+  });
+
+  function smsFallback(v){
+    var body = 'Quote request from the website —\n' +
+               'Name: '    + v.name + '\n' +
+               'Phone: '   + v.phone + '\n' +
+               (v.town ? 'Town: ' + v.town + '\n' : '') +
+               'Service: ' + v.service +
+               (v.details ? '\nDetails: ' + v.details : '');
+    window.location.href = 'sms:' + SHOP_PHONE + '?&body=' + encodeURIComponent(body);
+  }
+
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+
+    if (document.getElementById('botcheck').value) return;   // honeypot
+
+    if (!validate()){
+      showStatus('bad', 'Check the form', 'A couple of fields still need filling in.');
+      var bad = form.querySelector('[aria-invalid="true"]');
+      if (bad) bad.focus();
+      return;
+    }
+
+    var v = {
+      name:    document.getElementById('qname').value.trim(),
+      phone:   document.getElementById('qphone').value.trim(),
+      town:    document.getElementById('qtown').value.trim(),
+      service: document.getElementById('qsvc').value,
+      details: document.getElementById('qnote').value.trim()
+    };
+
+    if (!WEB3FORMS_KEY){ smsFallback(v); return; }
+
+    submit.disabled = true;
+    submit.textContent = 'Sending…';
+    status.className = 'form-status';
+
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json', 'Accept':'application/json'},
+      body: JSON.stringify({
+        access_key: WEB3FORMS_KEY,
+        subject: 'Website quote request — ' + v.name + ' (' + v.service + ')',
+        from_name: 'Great Lakes Super Clean website',
+        name: v.name, phone: v.phone, town: v.town,
+        service: v.service, details: v.details
+      })
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if (!data.success) throw new Error(data.message || 'send failed');
+      form.reset();
+      showStatus('ok', 'Got it', 'Your request is in. Todd or one of the crew will get back to you, usually the same day. If it is an emergency, call (616) 437-0403.');
+      submit.textContent = 'Sent';
+    })
+    .catch(function(){
+      showStatus('bad', 'That did not go through', 'Opening a text message to Todd instead — or call (616) 437-0403.');
+      submit.disabled = false;
+      submit.textContent = 'Send it to Todd';
+      setTimeout(function(){ smsFallback(v); }, 900);
+    });
+  });
+})();
+</script>
+</body>
+</html>
