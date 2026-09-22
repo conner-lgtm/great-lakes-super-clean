@@ -10,7 +10,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Great Lakes Super Clean — Allendale, MI">
 <meta property="og:description" content="Carpets, air ducts and 24-hour water damage restoration. Family-owned since 1989. Call or text (616) 437-0403.">
-<meta property="og:image" content="images/g-night.jpg">
+<meta property="og:image" content="images/team.jpg">
 <meta property="og:url" content="https://www.greatlakessuperclean.com/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#25378c">
@@ -210,12 +210,12 @@ header.stuck .head-phone svg{color:var(--royal)}
    HERO
    ============================================================ */
 .hero{position:relative;min-height:100dvh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;background:#05080c}
-.hero-img{position:absolute;inset:0;background:url("images/hero.jpg") center 45%/cover no-repeat;transform:scale(1.04)}
+.hero-img{position:absolute;inset:0;background:url("images/team.jpg") center 32%/cover no-repeat;transform:scale(1.04);filter:brightness(1.04) saturate(1.04)}
 .hero-scrim{
   position:absolute;inset:0;
   background:
-    linear-gradient(94deg,rgba(4,7,11,.94) 0%,rgba(4,7,11,.8) 38%,rgba(4,7,11,.34) 68%,rgba(4,7,11,.6) 100%),
-    linear-gradient(0deg,rgba(4,7,11,.96) 0%,rgba(4,7,11,.28) 42%,rgba(4,7,11,.45) 100%);
+    linear-gradient(96deg,rgba(9,16,28,.93) 0%,rgba(9,16,28,.9) 30%,rgba(9,16,28,.62) 56%,rgba(9,16,28,.3) 78%,rgba(9,16,28,.36) 100%),
+    linear-gradient(0deg,rgba(7,12,20,.9) 0%,rgba(7,12,20,.1) 38%,transparent 62%);
 }
 .hero .wrap{position:relative;z-index:2;width:100%;padding-top:136px;padding-bottom:0}
 
@@ -548,6 +548,23 @@ footer a:hover{color:var(--drop-lift)}
   .rev-wall{columns:1}
   .wgrid{grid-template-columns:1fr}
   .hero .wrap{padding-top:104px}
+  /* A 4:3 group photo will not crop into a tall phone hero with copy over
+     it — the faces always land behind the headline. So on phones the hero
+     splits: the crew gets a clean band up top, the copy gets a solid panel
+     underneath. Legible, and the humans actually read. */
+  .hero{background:#0b1018}
+  /* fixed px, not %: the hero grows taller than the viewport, so a
+     percentage band stretches down behind the copy */
+  .hero-img{inset:0 0 auto 0;height:392px;background-position:58% 26%;transform:none}
+  .hero-scrim{background:linear-gradient(180deg,
+      rgba(11,16,24,0)   0px,
+      rgba(11,16,24,.05) 230px,
+      rgba(11,16,24,.80) 340px,
+      #0b1018            392px,
+      #0b1018            100%)}
+  .hero .wrap{padding-top:418px}
+  .hero h1{font-size:clamp(2.4rem,10vw,3.3rem)}
+  .hero-sub{margin:18px 0 26px}
   .hero-mascot{display:none}
   .hero-acts{margin-bottom:30px}
   .f-row{grid-template-columns:1fr}
@@ -611,9 +628,8 @@ footer a:hover{color:var(--drop-lift)}
 
 <!-- ================= HERO ================= -->
 <section class="hero">
-  <div class="hero-img" role="img" aria-label="The Great Lakes Super Clean trailer and van lit up blue on a night job"></div>
+  <div class="hero-img" role="img" aria-label="Todd and a crew member standing by a Great Lakes Super Clean van in Allendale"></div>
   <div class="hero-scrim" aria-hidden="true"></div>
-  <img class="hero-mascot" src="images/mascot.png" alt="" aria-hidden="true" width="340" height="276">
 
   <div class="wrap">
     <p class="hero-tag"><i></i> Allendale, Michigan · Family-owned since 1989</p>
